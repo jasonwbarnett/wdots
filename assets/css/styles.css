@@ -179,6 +179,11 @@ pre code {
 .header .main-nav .nav .nav-item.last {
   margin-right: 0;
 }
+
+.section{
+  min-height: 600px;
+}
+
 /* ======= Promo Section ======= */
 .promo {
   background: #17baef;
@@ -421,7 +426,7 @@ pre code {
   color: #fff;
 }
 .contact .contact-inner {
-  max-width: 760px;
+  max-width: 1024px;
   margin: 0 auto;
 }
 .contact .title {
