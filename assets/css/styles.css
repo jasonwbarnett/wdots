@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: devAid - Responsive Website Template for developers
  * Version: 1.0
  * Author: Xiaoying Riley at 3rd Wave Media
@@ -184,6 +184,7 @@ pre code {
   background: #17baef;
   color: #fff;
   padding-top: 150px;
+  min-height: 550px;
 }
 .promo .title {
   font-size: 98px;
