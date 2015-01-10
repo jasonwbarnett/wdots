@@ -8,6 +8,7 @@ users = users.inject([]) do |memo,user|
   memo
 end
 
+users.sort_by! { |x| x["name"] }
 users = ({"users" => users}).to_yaml
 
 File.open('users.yml', 'w') {|f| f.write(users) }
